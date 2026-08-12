@@ -1,0 +1,17 @@
+{
+  "first_run": {
+    "run_id": "d4c98c69-dffa-458d-89ec-2a0f0a786019",
+    "rows_in_batch": 2000,
+    "row_count_before": 2000,
+    "row_count_after": 2000,
+    "net_new_rows": 0
+  },
+  "second_run_same_data": {
+    "run_id": "99da1c51-89ed-4007-96cf-c8ffaae8f19a",
+    "rows_in_batch": 2000,
+    "row_count_before": 2000,
+    "row_count_after": 2000,
+    "net_new_rows": 0
+  },
+  "idempotent_confirmed": true
+}

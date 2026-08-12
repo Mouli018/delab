@@ -1,0 +1,185 @@
+{
+  "sources": [
+    {
+      "name": "styles.csv",
+      "type": "structured/text (tabular)",
+      "rows": 44424,
+      "columns": [
+        "id",
+        "gender",
+        "masterCategory",
+        "subCategory",
+        "articleType",
+        "baseColour",
+        "season",
+        "year",
+        "usage",
+        "productDisplayName"
+      ]
+    },
+    {
+      "name": "product images",
+      "type": "image (unstructured)",
+      "count": 19,
+      "samples": [
+        {
+          "file": "1558.jpg",
+          "size": [
+            60,
+            80
+          ],
+          "mode": "RGB"
+        },
+        {
+          "file": "1559.jpg",
+          "size": [
+            60,
+            80
+          ],
+          "mode": "RGB"
+        },
+        {
+          "file": "1561.jpg",
+          "size": [
+            60,
+            80
+          ],
+          "mode": "RGB"
+        },
+        {
+          "file": "1562.jpg",
+          "size": [
+            60,
+            80
+          ],
+          "mode": "RGB"
+        },
+        {
+          "file": "1563.jpg",
+          "size": [
+            60,
+            80
+          ],
+          "mode": "RGB"
+        },
+        {
+          "file": "1565.jpg",
+          "size": [
+            60,
+            80
+          ],
+          "mode": "RGB"
+        },
+        {
+          "file": "1566.jpg",
+          "size": [
+            60,
+            80
+          ],
+          "mode": "RGB"
+        },
+        {
+          "file": "1567.jpg",
+          "size": [
+            60,
+            80
+          ],
+          "mode": "RGB"
+        },
+        {
+          "file": "1569.jpg",
+          "size": [
+            60,
+            80
+          ],
+          "mode": "RGB"
+        },
+        {
+          "file": "1570.jpg",
+          "size": [
+            60,
+            80
+          ],
+          "mode": "RGB"
+        },
+        {
+          "file": "1571.jpg",
+          "size": [
+            60,
+            80
+          ],
+          "mode": "RGB"
+        },
+        {
+          "file": "1572.jpg",
+          "size": [
+            60,
+            80
+          ],
+          "mode": "RGB"
+        },
+        {
+          "file": "1573.jpg",
+          "size": [
+            60,
+            80
+          ],
+          "mode": "RGB"
+        },
+        {
+          "file": "1575.jpg",
+          "size": [
+            60,
+            80
+          ],
+          "mode": "RGB"
+        },
+        {
+          "file": "1577.jpg",
+          "size": [
+            60,
+            80
+          ],
+          "mode": "RGB"
+        },
+        {
+          "file": "1578.jpg",
+          "size": [
+            60,
+            80
+          ],
+          "mode": "RGB"
+        },
+        {
+          "file": "1579.jpg",
+          "size": [
+            60,
+            80
+          ],
+          "mode": "RGB"
+        },
+        {
+          "file": "1580.jpg",
+          "size": [
+            60,
+            80
+          ],
+          "mode": "RGB"
+        },
+        {
+          "file": "1581.jpg",
+          "size": [
+            60,
+            80
+          ],
+          "mode": "RGB"
+        }
+      ]
+    },
+    {
+      "name": "(documented, not sampled) video/audio/medical",
+      "type": "planned extension",
+      "note": "Same ingestion pattern (raw -> staging -> warehouse) would apply to product demo videos, voice-search audio logs, and size/fit biometric scans in a production catalog system."
+    }
+  ]
+}

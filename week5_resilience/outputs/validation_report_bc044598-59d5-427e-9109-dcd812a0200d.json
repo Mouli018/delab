@@ -1,0 +1,17 @@
+{
+  "schema_valid": true,
+  "missing_columns": [],
+  "null_check_passed": true,
+  "null_counts": {
+    "id": 0,
+    "productDisplayName": 0,
+    "masterCategory": 0
+  },
+  "outlier_year_count": 0,
+  "outlier_check_passed": true,
+  "duplicate_check_passed": true,
+  "duplicate_count": 0,
+  "all_passed": true,
+  "batch_id": "bc044598-59d5-427e-9109-dcd812a0200d",
+  "staging_path": "C:\\Users\\mouli\\Downloads\\data_engineering_lab_22MDCEL10 (1)\\delab\\data\\staging\\batch_bc044598-59d5-427e-9109-dcd812a0200d.parquet"
+}

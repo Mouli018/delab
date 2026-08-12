@@ -1,0 +1,23 @@
+gender,category_name,txns,revenue
+Boys,Apparel,332,1757980.78
+Boys,Footwear,30,160761.88
+Boys,Accessories,10,39851.15
+Girls,Apparel,275,1466962.45
+Girls,Footwear,32,127439.05
+Girls,Accessories,17,94782.07
+Men,Apparel,5155,27561819.36
+Men,Footwear,2613,13883374.66
+Men,Accessories,1911,10184970.94
+Men,Personal Care,238,1280017.4
+Men,Free Items,19,119687.14
+Unisex,Accessories,660,3484299.22
+Unisex,Footwear,211,1064270.97
+Unisex,Apparel,33,221486.45
+Unisex,Sporting Goods,6,35219.49
+Unisex,Personal Care,7,31328.84
+Unisex,Free Items,2,10334.01
+Women,Apparel,3930,20986735.13
+Women,Accessories,2365,12577110.44
+Women,Footwear,1312,7181933.88
+Women,Personal Care,816,4557089.92
+Women,Free Items,26,162435.29

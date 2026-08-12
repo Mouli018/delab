@@ -1,0 +1,194 @@
+category_name,region,quarter,revenue,txns
+,,,106989890.52,20000
+Apparel,,,51994984.17,9725
+,,1,28196191.38,5243
+,,3,27766334.73,5181
+Accessories,,,26381013.82,4963
+,,4,25633929.48,4785
+,,2,25393434.93,4791
+Footwear,,,22417780.44,4198
+,South,,22055224.03,4165
+,North,,21880537.2,4028
+,East,,21773512.99,4088
+,Central,,20665854.69,3873
+,West,,20614761.61,3846
+Apparel,,1,14093680.96,2594
+Apparel,,3,13104157.33,2480
+Apparel,,4,12768080.01,2359
+Apparel,,2,12029065.87,2292
+Apparel,South,,10838165.01,2036
+Apparel,North,,10554652.25,1935
+Apparel,East,,10535795.68,2009
+Apparel,West,,10046441.48,1873
+Apparel,Central,,10019929.75,1872
+Accessories,,3,7338534.1,1351
+Accessories,,1,6746928.67,1273
+Accessories,,2,6450484.19,1207
+,East,1,6409578.37,1209
+,North,3,6325416.41,1138
+,South,1,6159336.34,1121
+Personal Care,,,5868436.16,1061
+Accessories,,4,5845066.86,1132
+Footwear,,1,5824758.69,1089
+,North,4,5822026.53,1066
+,Central,3,5814683.0,1092
+Footwear,,3,5799554.07,1078
+,Central,1,5509927.29,1025
+Accessories,North,,5509241.43,1028
+,Central,2,5478848.42,1001
+,East,4,5472479.83,987
+,South,4,5448184.45,1031
+,South,3,5418834.16,1028
+,West,3,5418103.94,997
+Footwear,,2,5399120.42,1023
+Footwear,,4,5394347.26,1008
+Accessories,South,,5390096.23,1038
+Accessories,West,,5313587.01,989
+,West,1,5115764.93,964
+,East,2,5102157.57,966
+Accessories,Central,,5094730.24,954
+Accessories,East,,5073358.91,954
+,West,2,5052050.05,939
+,South,2,5028869.08,985
+,West,4,5028842.69,946
+,North,1,5001584.45,924
+Footwear,East,,4918052.12,915
+,East,3,4789297.22,926
+,North,2,4731509.81,900
+Footwear,North,,4478616.7,826
+Footwear,Central,,4447668.07,834
+Footwear,South,,4440309.53,849
+Footwear,West,,4133134.02,774
+,Central,4,3862395.98,755
+Apparel,East,1,3060583.38,594
+Apparel,South,1,3037537.04,541
+Apparel,North,3,2984199.26,544
+Apparel,Central,1,2922204.97,525
+Apparel,North,4,2894474.77,519
+Apparel,South,4,2811805.96,520
+Apparel,East,4,2703747.67,489
+Apparel,Central,3,2689848.84,526
+Apparel,West,1,2613524.92,485
+Apparel,West,3,2601311.43,485
+Apparel,South,3,2567310.97,495
+Apparel,East,2,2509977.8,496
+Apparel,Central,2,2502082.78,455
+Apparel,North,1,2459830.65,449
+Apparel,West,4,2452258.45,465
+Apparel,South,2,2421511.04,480
+Apparel,West,2,2379346.68,438
+Apparel,East,3,2261486.83,430
+Apparel,North,2,2216147.57,423
+Apparel,Central,4,1905793.16,366
+Accessories,North,3,1682093.12,294
+Personal Care,,4,1564625.48,274
+Accessories,South,1,1539077.24,279
+Accessories,East,1,1535757.19,293
+Accessories,Central,3,1511487.81,282
+Accessories,West,3,1489030.28,275
+Accessories,Central,2,1477981.12,269
+Personal Care,,2,1448880.24,260
+Accessories,South,3,1439366.41,271
+Personal Care,,3,1429056.71,256
+Personal Care,,1,1425873.73,271
+Footwear,East,1,1417099.01,258
+Accessories,North,2,1338327.23,245
+Accessories,West,2,1307502.1,245
+Personal Care,South,,1305553.37,229
+Footwear,Central,3,1304471.97,237
+Footwear,North,4,1287338.54,230
+Accessories,North,4,1273015.17,252
+Accessories,West,4,1263394.66,232
+Footwear,North,3,1258703.02,227
+Accessories,West,1,1253659.97,237
+Personal Care,North,,1245406.06,226
+Personal Care,East,,1223924.44,205
+Footwear,East,2,1218392.86,223
+Footwear,East,4,1217939.69,217
+Accessories,East,3,1216556.48,229
+Accessories,South,2,1215868.37,240
+Accessories,North,1,1215805.91,237
+Accessories,East,4,1210239.87,224
+Accessories,Central,1,1202628.36,227
+Accessories,South,4,1195784.21,248
+Footwear,South,1,1173851.55,229
+Footwear,Central,1,1172261.78,216
+Footwear,Central,2,1147139.33,214
+Footwear,South,3,1143700.46,211
+Accessories,East,2,1110805.37,208
+Footwear,South,4,1077134.66,204
+Footwear,East,3,1064620.56,217
+Footwear,West,2,1061091.49,198
+Personal Care,West,,1059109.89,200
+Footwear,West,1,1055845.09,200
+Footwear,South,2,1045622.86,205
+Personal Care,Central,,1034442.4,201
+Footwear,West,3,1028058.06,186
+Footwear,North,1,1005701.26,186
+Footwear,West,4,988139.38,190
+Footwear,North,2,926873.88,183
+Accessories,Central,4,902632.95,176
+Footwear,Central,4,823794.99,167
+Personal Care,South,1,391082.0,68
+Personal Care,East,1,386489.71,62
+Personal Care,North,3,378987.91,70
+Personal Care,North,4,341368.23,60
+Personal Care,South,2,339902.63,59
+Personal Care,East,4,337308.7,55
+Personal Care,Central,2,334044.48,60
+Personal Care,South,4,331899.92,56
+Personal Care,West,4,323873.75,57
+Free Items,,,292456.44,47
+Personal Care,Central,3,287685.3,43
+Personal Care,North,1,284528.0,49
+Personal Care,West,2,280918.53,56
+Personal Care,West,3,273081.33,47
+Personal Care,East,2,253492.68,38
+Personal Care,East,3,246633.35,50
+Personal Care,South,3,242668.82,46
+Personal Care,North,2,240521.92,47
+Personal Care,Central,4,230174.88,46
+Personal Care,Central,1,182537.74,52
+Personal Care,West,1,181236.28,40
+Free Items,,1,104522.76,15
+Free Items,North,,84392.99,12
+Free Items,South,,73805.15,11
+Free Items,,3,69814.56,13
+Free Items,,2,63177.42,8
+Free Items,Central,,56043.37,10
+Free Items,West,,55833.09,9
+Free Items,,4,54941.7,11
+Free Items,North,1,35718.63,3
+Sporting Goods,,,35219.49,6
+Free Items,Central,1,30294.44,5
+Free Items,North,4,25829.82,5
+Free Items,South,3,25787.5,5
+Sporting Goods,,3,25217.96,3
+Free Items,South,4,24691.53,2
+Free Items,West,2,23191.25,2
+Free Items,East,,22381.84,5
+Free Items,West,3,19966.72,3
+Free Items,South,1,17361.94,3
+Free Items,Central,2,14893.92,2
+Free Items,North,3,13205.33,2
+Sporting Goods,Central,,13040.86,2
+Free Items,West,1,11498.67,2
+Free Items,Central,3,10855.01,3
+Sporting Goods,Central,3,10334.07,1
+Free Items,East,1,9649.08,2
+Free Items,North,2,9639.21,2
+Free Items,East,2,9488.86,1
+Sporting Goods,North,,8227.77,1
+Sporting Goods,North,3,8227.77,1
+Sporting Goods,South,,7294.74,2
+Sporting Goods,South,4,6868.17,1
+Sporting Goods,,4,6868.17,1
+Sporting Goods,West,,6656.12,1
+Sporting Goods,West,3,6656.12,1
+Free Items,South,2,5964.18,1
+Free Items,East,4,3243.9,2
+Sporting Goods,,2,2706.79,1
+Sporting Goods,Central,2,2706.79,1
+Free Items,West,4,1176.45,2
+Sporting Goods,,1,426.57,1
+Sporting Goods,South,1,426.57,1

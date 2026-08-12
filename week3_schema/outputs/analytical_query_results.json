@@ -1,0 +1,157 @@
+{
+  "revenue_by_category_season": {
+    "rows": 64,
+    "preview": [
+      {
+        "category_name": "Apparel",
+        "month": 3,
+        "revenue": 5280878.57
+      },
+      {
+        "category_name": "Apparel",
+        "month": 7,
+        "revenue": 4981839.55
+      },
+      {
+        "category_name": "Apparel",
+        "month": 10,
+        "revenue": 4560199.07
+      },
+      {
+        "category_name": "Apparel",
+        "month": 8,
+        "revenue": 4504957.33
+      },
+      {
+        "category_name": "Apparel",
+        "month": 1,
+        "revenue": 4434652.04
+      }
+    ]
+  },
+  "top_selling_article_types": {
+    "rows": 10,
+    "preview": [
+      {
+        "article_type_name": "Tshirts",
+        "units_sold": 6389.0,
+        "revenue": 17151326.62
+      },
+      {
+        "article_type_name": "Shirts",
+        "units_sold": 2931.0,
+        "revenue": 7866895.9
+      },
+      {
+        "article_type_name": "Casual Shoes",
+        "units_sold": 2675.0,
+        "revenue": 7032162.85
+      },
+      {
+        "article_type_name": "Watches",
+        "units_sold": 2277.0,
+        "revenue": 6054908.76
+      },
+      {
+        "article_type_name": "Sports Shoes",
+        "units_sold": 1772.0,
+        "revenue": 4736233.57
+      }
+    ]
+  },
+  "revenue_by_store_region": {
+    "rows": 5,
+    "preview": [
+      {
+        "region": "South",
+        "revenue": 22055224.03,
+        "transactions": 4165
+      },
+      {
+        "region": "North",
+        "revenue": 21880537.2,
+        "transactions": 4028
+      },
+      {
+        "region": "East",
+        "revenue": 21773512.99,
+        "transactions": 4088
+      },
+      {
+        "region": "Central",
+        "revenue": 20665854.69,
+        "transactions": 3873
+      },
+      {
+        "region": "West",
+        "revenue": 20614761.61,
+        "transactions": 3846
+      }
+    ]
+  },
+  "quarterly_trend": {
+    "rows": 8,
+    "preview": [
+      {
+        "year": 2024,
+        "quarter": 1,
+        "revenue": 13897638.68
+      },
+      {
+        "year": 2024,
+        "quarter": 2,
+        "revenue": 12906751.68
+      },
+      {
+        "year": 2024,
+        "quarter": 3,
+        "revenue": 14171454.04
+      },
+      {
+        "year": 2024,
+        "quarter": 4,
+        "revenue": 13554418.28
+      },
+      {
+        "year": 2025,
+        "quarter": 1,
+        "revenue": 14298552.7
+      }
+    ]
+  },
+  "gender_category_cube": {
+    "rows": 22,
+    "preview": [
+      {
+        "gender": "Boys",
+        "category_name": "Apparel",
+        "txns": 332,
+        "revenue": 1757980.78
+      },
+      {
+        "gender": "Boys",
+        "category_name": "Footwear",
+        "txns": 30,
+        "revenue": 160761.88
+      },
+      {
+        "gender": "Boys",
+        "category_name": "Accessories",
+        "txns": 10,
+        "revenue": 39851.15
+      },
+      {
+        "gender": "Girls",
+        "category_name": "Apparel",
+        "txns": 275,
+        "revenue": 1466962.45
+      },
+      {
+        "gender": "Girls",
+        "category_name": "Footwear",
+        "txns": 32,
+        "revenue": 127439.05
+      }
+    ]
+  }
+}

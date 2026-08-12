@@ -1,0 +1,17 @@
+{
+  "schema_valid": true,
+  "missing_columns": [],
+  "null_check_passed": true,
+  "null_counts": {
+    "id": 0,
+    "productDisplayName": 0,
+    "masterCategory": 0
+  },
+  "outlier_year_count": 0,
+  "outlier_check_passed": true,
+  "duplicate_check_passed": true,
+  "duplicate_count": 0,
+  "all_passed": true,
+  "batch_id": "9b6d2f4f-8b1f-4b6f-8750-e7901e66d412",
+  "staging_path": "/home/claude/delab/data/staging/batch_9b6d2f4f-8b1f-4b6f-8750-e7901e66d412.parquet"
+}

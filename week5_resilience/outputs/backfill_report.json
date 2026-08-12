@@ -1,0 +1,6 @@
+{
+  "corrupted_rows_detected": 200,
+  "rows_backfilled": 200,
+  "remaining_bad_rows": 0,
+  "backfill_successful": true
+}

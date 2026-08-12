@@ -1,0 +1,31 @@
+{
+  "before_shape": [
+    44424,
+    10
+  ],
+  "missing_before": {
+    "baseColour": 15,
+    "season": 21,
+    "year": 1,
+    "usage": 317,
+    "productDisplayName": 7
+  },
+  "after_shape": [
+    44417,
+    10
+  ],
+  "duplicates_removed": 0,
+  "noisy_year_rows_removed": 0,
+  "missing_after": {
+    "id": 0,
+    "gender": 0,
+    "masterCategory": 0,
+    "subCategory": 0,
+    "articleType": 0,
+    "baseColour": 0,
+    "season": 0,
+    "year": 0,
+    "usage": 0,
+    "productDisplayName": 0
+  }
+}

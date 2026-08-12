@@ -1,0 +1,19 @@
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+seaborn>=0.12
+scikit-learn>=1.3
+sqlalchemy>=2.0
+duckdb>=0.9
+tinydb>=4.8
+fastapi>=0.104
+uvicorn>=0.24
+requests>=2.31
+streamlit>=1.28
+pillow>=10.0
+pyarrow>=14.0
+kafka-python>=2.0     # only needed for orchestration/kafka/producer.py + consumer.py
+
+# Apache Airflow is intentionally NOT listed here - install it in its own
+# venv per orchestration/AIRFLOW_SETUP.md (it pins many dependencies that
+# can conflict with the packages above).

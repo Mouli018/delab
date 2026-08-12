@@ -1,0 +1,15 @@
+{
+  "success_case": {
+    "attempted_rows": 200,
+    "inject_failure": false,
+    "outcome": "COMMITTED",
+    "final_row_count": 200
+  },
+  "failure_case": {
+    "attempted_rows": 201,
+    "inject_failure": true,
+    "outcome": "ROLLED_BACK",
+    "error": "NOT NULL constraint failed: atomic_test.productDisplayName",
+    "final_row_count": 0
+  }
+}

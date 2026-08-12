@@ -1,0 +1,17 @@
+{
+  "schema_valid": true,
+  "missing_columns": [],
+  "null_check_passed": true,
+  "null_counts": {
+    "id": 0,
+    "productDisplayName": 0,
+    "masterCategory": 0
+  },
+  "outlier_year_count": 0,
+  "outlier_check_passed": true,
+  "duplicate_check_passed": true,
+  "duplicate_count": 0,
+  "all_passed": true,
+  "batch_id": "2bf72cde-4999-42dd-9c48-89979c58f574",
+  "staging_path": "/home/claude/delab/data/staging/batch_2bf72cde-4999-42dd-9c48-89979c58f574.parquet"
+}

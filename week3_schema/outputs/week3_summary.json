@@ -1,0 +1,19 @@
+{
+  "oltp_row_counts": {
+    "products": 44417,
+    "customers": 300,
+    "orders": 2000,
+    "order_items": 20000
+  },
+  "star_schema": {
+    "fact_sales_rows": 20000,
+    "dim_product_rows": 44417
+  },
+  "analytical_queries_run": [
+    "revenue_by_category_season",
+    "top_selling_article_types",
+    "revenue_by_store_region",
+    "quarterly_trend",
+    "gender_category_cube"
+  ]
+}

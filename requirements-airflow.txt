@@ -1,0 +1,14 @@
+# Airflow is intentionally not a plain `pip install -r` target.
+#
+# Apache Airflow ships with a pinned constraints file per version/Python
+# combo (it has a LOT of transitive dependencies that conflict easily with
+# a general-purpose data science stack like the one in requirements.txt).
+#
+# Install it in its own virtual environment:
+#
+#   python3 -m venv airflow_venv
+#   airflow_venv/bin/pip install --upgrade pip
+#   airflow_venv/bin/pip install "apache-airflow==2.9.3" \
+#       --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.9.3/constraints-3.12.txt"
+#
+# Full setup + how to run both DAGs: see orchestration/AIRFLOW_SETUP.md

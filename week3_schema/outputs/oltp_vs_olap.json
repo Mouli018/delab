@@ -1,0 +1,34 @@
+{
+  "OLTP": {
+    "purpose": "Day-to-day transactional operations (order placement, inventory updates, catalog edits)",
+    "characteristics": [
+      "High write volume",
+      "Row-level operations",
+      "Normalized (3NF) to avoid update anomalies",
+      "Small, fast, indexed queries"
+    ],
+    "example_tables": [
+      "products",
+      "customers",
+      "orders",
+      "order_items",
+      "inventory"
+    ]
+  },
+  "OLAP": {
+    "purpose": "Analytical reporting (sales trend by category/season, stock health, rating analysis)",
+    "characteristics": [
+      "High read volume, batch-loaded",
+      "Denormalized (star/snowflake) for query speed",
+      "Aggregations over large historical windows",
+      "Optimized for GROUP BY / rollups, not single-row lookups"
+    ],
+    "example_tables": [
+      "fact_sales",
+      "dim_product",
+      "dim_customer",
+      "dim_time",
+      "dim_store"
+    ]
+  }
+}

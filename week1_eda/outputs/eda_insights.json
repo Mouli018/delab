@@ -1,0 +1,38 @@
+{
+  "summary_stats": {
+    "total_products": 44417,
+    "unique_article_types": 143,
+    "unique_colours": 47,
+    "master_categories": {
+      "Apparel": 21397,
+      "Accessories": 11272,
+      "Footwear": 9219,
+      "Personal Care": 2398,
+      "Free Items": 105,
+      "Sporting Goods": 25,
+      "Home": 1
+    },
+    "gender_split": {
+      "Men": 22144,
+      "Women": 18627,
+      "Unisex": 2161,
+      "Boys": 830,
+      "Girls": 655
+    },
+    "usage_split": {
+      "Casual": 34404,
+      "Sports": 4025,
+      "Ethnic": 3208,
+      "Formal": 2345,
+      "Unknown": 312,
+      "Smart Casual": 67,
+      "Party": 29,
+      "Travel": 26,
+      "Home": 1
+    },
+    "year_range": [
+      2007,
+      2019
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "extraction_errors": [],
+  "load_verification": {
+    "rows_loaded": 44417,
+    "rows_verified_in_db": 44417,
+    "match": true
+  },
+  "total_rows": 44417
+}
