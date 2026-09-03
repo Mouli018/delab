@@ -2,14 +2,15 @@
 
 **Programme:** M.Sc (Decision and Computing Sciences)
 **Dataset:** [Fashion Product Images (Small)](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small) — Kaggle
-**Deliverable:** A single, continuous, real, runnable data-engineering pipeline covering all 5
-weeks of the course plan, orchestrated with **Apache Airflow**, streamed with **Kafka**, and
+**Deliverable:** A single, continuous, real, runnable data-engineering pipeline covering all 6
+weeks of the course plan, orchestrated with **Apache Airflow**, streamed with **Kafka**, validated with **CI/CD & Pytest**, and
 showcased in a **Power BI** dashboard (plus a working Streamlit dashboard as a live bonus demo).
 
 ## What's new in this version
 
 | Ask | Where |
 |---|---|
+| CI/CD & Version Control (Week 6) | `.github/workflows/ci.yml`, `BRANCHING_STRATEGY.md`, `tests/test_transformations.py` — 28 pure unit tests with zero external dependencies, GitFlow-Lite strategy, flake8 linting, and automated GitHub Actions CI workflow |
 | Power BI dashboard, with buttons | `powerbi/` — real star-schema data exports + Power Query M scripts + DAX + a step-by-step build guide (including button/bookmark navigation). I can't run Power BI Desktop myself (Windows/Mac-only proprietary software) — see `powerbi/BUILD_GUIDE.md` for why and how to assemble it in ~15 min |
 | New data → automatic EDA/ETL | `orchestration/airflow/dags/new_data_watcher_dag.py` — a **real, tested** Airflow DAG that polls `data/incoming/`, and the instant a file lands, ingests it and triggers the full pipeline. Verified end-to-end: file dropped → detected → ingested → pipeline triggered, `state=success` |
 | Airflow (Week 5) | `orchestration/airflow/dags/data_engineering_pipeline_dag.py` — the whole Week 1-5 pipeline as a real Airflow task DAG, **installed and actually executed** in this build (not just written) — see `orchestration/AIRFLOW_SETUP.md` |
@@ -141,6 +142,11 @@ displays. Nothing on the dashboard is hard-coded.
   transaction and showing the entire batch rolls back (0 rows persisted, not 149/200)
 - **Error handling / backfill**: simulates a historical data-quality bug, detects the exact
   blast radius, and backfills only the affected rows from source-of-truth — not a full reload
+
+### Week 6 — CI/CD and Version Control
+- **Git Branching Strategy**: `BRANCHING_STRATEGY.md` defines a GitFlow-Lite model (`main`, `develop`, `feature/*`, `fix/*`, `data/*`, `hotfix/*`, `release/*`) with Conventional Commits.
+- **Unit Tests for Transformations**: `tests/test_transformations.py` with 28 pure unit tests covering `transform()`, row hashing, CDC, incremental watermark loading, and edge cases.
+- **GitHub Actions CI/CD Pipeline**: `.github/workflows/ci.yml` running 5 automated jobs: `compile-check`, `lint` (flake8), `unit-tests` (pytest + coverage), `integration-tests`, and `ci-summary`.
 
 ---
 

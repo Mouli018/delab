@@ -22,23 +22,18 @@ Run with:
 All tests complete in < 5 seconds with no external dependencies.
 """
 
-import hashlib
 import json
-import sqlite3
-import tempfile
+import sys
 from pathlib import Path
-from unittest.mock import patch, MagicMock
 
 import pandas as pd
 import pytest
 
-# ---------------------------------------------------------------------------
-# Import transformation functions directly from pipeline modules
-# ---------------------------------------------------------------------------
-import sys
 BASE = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(BASE))
+if str(BASE) not in sys.path:
+    sys.path.insert(0, str(BASE))
 
+# flake8: noqa: E402
 from week4_pipeline.pipeline_week4 import transform as week4_transform
 from week2_etl.pipeline_week2 import _row_hash, run_cdc, load_incremental
 
